@@ -1,5 +1,3 @@
-// config/config.js
-
 require('dotenv').config();
 
 module.exports = {
@@ -9,3 +7,4 @@ module.exports = {
   emailPass: process.env.EMAIL_PASS,
   weatherApiKey: process.env.WEATHER_API_KEY,
 };
+
